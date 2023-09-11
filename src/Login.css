@@ -1,0 +1,74 @@
+.login{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+}
+
+.log{
+    border: 1px solid black;
+    background-color: white;
+    height: 400px;
+    width: 80%;
+    max-width: 450px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.log h1{
+    font-size: 1.5rem;
+    margin: 0px;
+    color: royalblue;
+}
+
+.log h2{
+    font-size: 1.5rem;
+}
+
+.log input{
+    background-color: rgb(236, 238, 240);
+    height: 30px;
+    width: 350px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.logo{
+    height: 90px;
+    width: 130px;
+    
+}
+
+.log p1{
+    color: red;
+}
+
+.log button{
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+    height: 32px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.log a{
+    color: royalblue;  
+    text-decoration: none; 
+}
